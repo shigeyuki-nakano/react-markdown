@@ -18,5 +18,9 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'app.js',
         publicPath: 'dist/',
+    },
+    devServer: {
+        hot: true,
+        open: true
     }
 }
