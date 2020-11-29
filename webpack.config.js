@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './resource/app.tsx',
+    entry: './resource/ts/app.tsx',
     module: {
         rules: [
             {
@@ -12,6 +12,9 @@ module.exports = {
         ]
     },
     resolve: {
+        alias: {
+            '@': path.resolve(__dirname, './resource/ts')
+        },
         extensions: ['.ts', '.js', '.tsx', 'jsx']
     },
     output: {

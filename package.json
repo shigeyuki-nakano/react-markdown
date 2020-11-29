@@ -1,5 +1,5 @@
 {
-  "name": "react-markdown",
+  "name": "react-markdown-practice",
   "version": "1.0.0",
   "description": "\"# react-markdown\"",
   "main": "webpack.config.js",
@@ -20,17 +20,27 @@
   },
   "homepage": "https://github.com/shigeyuki-nakano/react-markdown#readme",
   "dependencies": {
+    "@types/marked": "^1.2.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/sanitize-html": "^1.27.0",
     "@types/styled-components": "^5.1.4",
+    "dexie": "^3.0.3",
+    "marked": "^1.2.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-markdown": "^5.0.3",
+    "react-router-dom": "^5.2.0",
+    "sanitize-html": "^2.1.2",
     "styled-components": "^5.2.1",
     "ts-loader": "^8.0.11",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "worker-loader": "^3.0.5"
   },
   "devDependencies": {
+    "app-root-path": "^3.0.0",
     "typescript": "^4.1.2",
     "webpack-dev-server": "^3.11.0"
   }
